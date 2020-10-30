@@ -1,0 +1,123 @@
+Linear Algebra for Machine Learning:
+
+
+	Vectors:
+ 	Has 2 components: direction and length/magnitude.
+	Eg. v ⃗=[3,1] where x = 3 and y = 1 component.
+	   	a ⃗=[-2,3] where x = -2 and y = 3 components
+
+Length of the vector in 2d:
+ 	||v||2   = 32+12   = 9+1 =√10 
+ 	V = √10
+
+Vector Addition: 
+	V = [3,2]
+ 	U = [1,4]
+V+U = [3+1 , 2+4] = [4,6]
+U+V = [1+3 , 4+2] = [4,6]
+
+Thus  v+u = u+v = [4,6].
+	Thus Vector addition is commutative
+
+
+Vector multiplication using scalar
+	
+V = [1,4]
+2V = [2,8]. = Two times the size and magnitude as V.
+-V = -1 X [2,8] = [-2 , -8] ->  Completely changes the direction of the vector direction.
+
+Vector Subtraction:
+V = [3,3]
+U = [4,1]
+V-U = V + (-U)   Here we can see from the above that v-u is the same as v+(-u).
+Thus:
+ 	V-U = [3,3] + [-4 , -1]
+	V-U = [-1,2] 
+
+Vector with 3 components:
+
+V = [1,4,3] = x = 1, y = 4, z = 3 
+Hence we need to plot it in 3d plane.
+
+Fun point: The way 3d plane is shown as represented because, we always look at the plane from top-down approach. Hence when z is added we get depth and looks different.
+
+
+Length of the 3-D Vector:
+
+V = [1,-6,4] 
+||V|| = [12,-62,32] => √([1+36+9] )  √ 46
+
+Common equation = sq_root(x12+x22+x32+…..xn2]
+
+Definition of Rn.
+V = [v1 , v2] belongs to Rn i.e  R2
+U=[u1 , u2 , u3]  belongs to Rn  R3
+W = [w1,w2,w3…wn] belongs to Rn  Rn
+
+Rn  is the set of all n-tuples of real numbers.
+
+
+PROOF THAT VECTOR ADDITION IS COMMUTATIVE AND ASSOCIATIVE.
+
+Commutative
+A=[A1,A2,...,An]
+B=[B1,B2,...,Bn]
+A+B=[A1+B1,A2+B2,...,An+Bn]
+A+B=[B1+A1,B2+A2,...,Bn+An]
+	B+A.
+∴[A+B]=[B+A]
+Associative:
+A =[ a₁ + a₂]
+B =[ b₁+ b₂]
+C = [c₁ + c₂]
+so
+(A + B) + C =  (a₁ + a₂ + b₁ + b₂ )+ c₁+ c₂   .............................i
+again
+A + (B + C) = a₁ + a₂ +( b₁ + b₂ + c₁+ c₂ )   .............................ii
+so i = ii
+so (A + B) + C =  A + (B + C)
+
+Algebric properties of vectors:
+
+	Commutative (vector) P + Q = Q + P
+	Associative (vector) (P + Q) + R = P + (Q + R)
+	Additive :  (P + 0) = P = (0 + P) = P
+
+	Additive inverse P + (-P) = 0
+	Distributive (vector) r(P + Q) = rP + rQ
+	Distributive (scalar) (r + s) P = rP + sP
+	Associative (scalar) r(sP) = (rs)P
+
+Definition of dot products:
+
+U = [u1+u2+u3+…un]
+V = [vi+v2+v3v…vn]
+U.V = u1v1 + u2v2 + u3v3 + …..UnVn.
+Hence it returns a single NUMERIC [eg 15] value. Hence it is also known as scalar product.
+
+Angle between two vectors.
+
+ ----  θ=cos−1a⃗ .b⃗ /|a⃗ ||b⃗ |
+	
+
+Orthagonal vectors.
+
+cosθ= a⃗ .b⃗ /|a⃗ ||b⃗ |
+cos 90 = a⃗ .b⃗ /|a⃗ ||b⃗ | => 0. [cos90 is 0]
+thus a⃗ .b⃗ = 0.
+
+Two vectors  a⃗ .b⃗ are orthogonal if and only if 
+a⃗ .b⃗ = 0.
+
+
+
+
+
+
+
+
+
+
+
+ 
+
