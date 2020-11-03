@@ -1,0 +1,28 @@
+This is Day - 0 [29-10-2020].
+
+Day - 0:
+ 	Checking out the functions of git such as commit, push, add, log, status and other functions. It feels nice and really feels like a real programmer
+to log our work continously whenever any changes is made.
+
+Day - 1:
+	Created my brand new flask project. 
+	Traversed through some pandas exercises.
+
+Day - 2:
+	Learned how to link two or more webpages and learned how to create forms and iterate through them in flask.
+	Documented some ideas and notes based on LINEAR ALGEBRA FOR MACHINE LEARNING.
+	created forms [login, and register] pages for accepting user input for account creating using flask.
+	Looked for what is FAST API and mongo DB specialities and usages.
+	
+Day - 3: 
+	Created Login forms and cleared out few bugs which prevented it from submission of the data using POST
+	Saw reference videos related to FAST API and understood what was API and how Fast API is faster, and reliable
+	Worked on some Flask related videos to know more about the micro framework.
+	Watched and worked out some math related to machine Learning.
+
+Day 4: 
+	Researched and learned about the ways to connect database to FAST api 
+	Created the forms and tables.
+	Learned about various statistical terms needed for machine learning and updated them.
+	Debugged the main homescreen which showed error due to the wrong dependencies installed(Took a while though)
+	Updated all the files for future reference in github.
