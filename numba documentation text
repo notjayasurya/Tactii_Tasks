@@ -1,0 +1,66 @@
+Numba Documentation.
+
+
+What is numba?
+	
+	Numba is a JIT (Just In Time) Compiler, which will convert your normal python code into optimized machine code at runtime.
+
+Numba helps us to achieve the execution speed near to that of the other programming languages such as C or Java.
+
+This is done by automatic detection and assignment of appropriate datatypes during the compilation of the programs, which is not present in python.
+
+Numba works well with numpy arrays, which contains huge number sets, making it suitable for scientific computation.
+
+Numba codes can be used to parallelize threads and could also be 
+used to run in GPU if the workload demands.
+
+
+
+Advantages of using numba:
+    • The execution time of the program is nearly 10 to 100 times faster using Numba after the first* execution.
+    • Numba makes use of parallelized processing for faster execution of the process.
+    • No need to learn or adapt any code. It will just run on normalized python codes.
+
+Disadvantages of using numba:
+
+    • During the intitial compilation, the execution time of the function will be equal or more than the time taken during the execution of normal python function
+    • Numba is not very good with datatypes it is NOT based upon. Eg. (Numba will revert back to normal python execution when it encounters STRING during computation).
+
+How Numba Works?
+
+Process Involved: 
+    1. The code is analysed for functions and arrays or any other compatible mathematical functions.
+    2. It is fed into the code generation which is used to segreate the functions and methods based upon thier datatypes.
+    3. The CODE GENERATION redirects the code to the needed hardware computation part. [CPU, GPU etc] .
+
+Compilers available for Numba:
+
+@jit:  		Regualar Functions.
+@vectorize	Numpy functions
+@guvectorize: Numpy Generalized functions
+@stencil		 Neighbourhood calculations	
+@cfunc		C Callbacks
+@cuda.jit	NVIDIA GPU controls
+@roc.jit		AMD Radeon GPU controls.
+
+When to use the NUMBA?
+1. To run your numeric calculations faster.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
